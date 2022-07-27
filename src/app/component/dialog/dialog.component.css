@@ -1,0 +1,21 @@
+.mat-form-field {
+ width:100%;
+}
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.mat-dialog-container{
+  display: block;
+  padding: 24px;
+  left: -116%;
+  top: 0%;
+  position: relative;
+}

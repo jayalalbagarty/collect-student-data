@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-4 bg-primary">
+    <h1>Student Register</h1>
+    <dl>
+      <dt>SName</dt>
+       <dd><input type="text" [(ngModel)]="Student.SName" class="form-control"></dd>
+       <dt>Branch</dt>
+       <dd>
+        <select [(ngModel)]="Student.Branch" class="form-control">
+          <option>MCA</option>
+          <option>BCA</option>
+          <option>MBA</option>
+          <option>BBA</option>
+        </select>
+       </dd>
+       <dt>Rollno</dt>
+       <dd><input type="text" [(ngModel)]="Student.Rollno" class="form-control"></dd>
+       <dt>Mobile</dt>
+       <dd><input type="text" [(ngModel)]="Student.Mobile" class="form-control"></dd>
+    </dl>
+    <button class="btn btn-danger">Submit</button>
+  </div>
+  <div class="col-8 bg-success">
+    <h2>Student Details</h2>
+     <table class="table">
+      <thead class="thead-dark">
+       <tr>
+        <th>SName</th>
+        <th>Branch</th>
+        <th>Rollno</th>
+        <th>Mobile</th>
+       </tr>
+      </thead>
+      <tbody>
+        <td>{{Student.SName | uppercase}}</td>
+
+      <td>{{Student.Branch | lowercase}}</td>
+
+      <td>{{Student.Rollno}}</td>
+
+      <td>{{Student.Mobile}}</td>
+      <button class="btn btn-primary">Edit</button>
+      <button class="btn btn-primary">Delete</button>
+      </tbody>
+
+     </table>
+  </div>
+  </div>
+</div>
+

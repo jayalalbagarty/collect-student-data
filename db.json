@@ -1,0 +1,53 @@
+{
+  "posts":[
+
+  ],
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "It is the Fruit item.....",
+      "date": "2022-06-25T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 170,
+      "comment": "This is not fresh..",
+      "date": "2022-06-25T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Banana",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "It is the Fruit item.....",
+      "date": "2022-06-25T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Potato",
+      "category": "Vegetables",
+      "freshness": "Second Hand",
+      "price": 250,
+      "comment": "it is Not fresh",
+      "date": "2022-06-27T18:30:00.000Z",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
